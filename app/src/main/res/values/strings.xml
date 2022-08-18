@@ -2,4 +2,6 @@
     <string name="app_name">Quest</string>
     <string name="about_me">Hi! My name is Liam and I am a second year development student at Open
     Window, my hobbies include Golf, soccer and car spotting</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
