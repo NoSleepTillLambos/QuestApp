@@ -30,6 +30,7 @@ object Constants {
 
         // adding questions to array
         allQuestions.add(que1)
+        allQuestions.add(que2)
 
         // return data
         return allQuestions

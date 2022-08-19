@@ -4,4 +4,7 @@
     Window, my hobbies include Golf, soccer and car spotting</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sports">Sports</string>
+    <string name="history">History</string>
+    <string name="tv">Television</string>
 </resources>
