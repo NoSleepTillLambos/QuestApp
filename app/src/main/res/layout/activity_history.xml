@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryActivity"
+    android:background="@drawable/background_app">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/materialCardView"
+        android:layout_width="300dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        app:checkedIconTint="@color/lightBlack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:id="@+id/tv_question"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="22dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="center"
+                android:text=""
+                android:textSize="21sp">
+
+            </TextView>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:id="@+id/rg_answer">
+
+                <RadioButton
+                    android:id="@+id/rb_answerOne"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Answer One"/>
+
+                <RadioButton
+                    android:id="@+id/rb_answerTwo"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Answer Two"
+                    />
+
+                <RadioButton
+                    android:id="@+id/rb_answerThree"
+                    android:layout_width="200dp"
+                    android:layout_gravity="center"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Answer Three"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_Next1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialCardView"
+        android:backgroundTint="@color/white"
+        android:text="next question"
+        android:textColor="@color/black">
+
+
+    </com.google.android.material.button.MaterialButton>
+</androidx.constraintlayout.widget.ConstraintLayout>

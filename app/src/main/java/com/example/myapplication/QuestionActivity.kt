@@ -1,5 +1,6 @@
 package com.example.myapplication
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -22,9 +23,19 @@ class QuestionActivity : AppCompatActivity() {
 
         // call for qll my questions
         val questions = getAllQuestions()
+
+
         Log.i("Question count: ", "${ questions.size }")
 
         // updating view values
-        binding.tvQuestion.text = "Welcome ${username} , This is your first question: ${questions[1].questionText}"
+        binding.tvGreeting.text = "Welcome $username!, Choose a category"
+
+        binding.materialCardView.setOnClickListener{
+            val intent = Intent(this, SportsActivity:: class.java )
+
+
+            startActivity(intent)
+            finish()
+        }
     }
 }

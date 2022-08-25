@@ -33,8 +33,6 @@ class MainActivity : AppCompatActivity() {
                 toast.show()
             } else {
                 // navigate to next activity
-
-
                 // intent , need to set context and then the new activity
                 val intent = Intent(this, QuestionActivity:: class.java)
 

@@ -12,25 +12,56 @@ object Constants {
         // todo: Create data
         val que1 = Question(
             1,
-            "Who was the first president of america",
+            "Who won the 1968 soccer world cup",
             R.drawable.ic_help,
-            "Kennedy",
-            "Washington"
-
+            "Germany",
+            "South Africa",
+            "Zimbabwe"
         )
 
         val que2 = Question (
             2,
-            "Who discovered America?",
+            "Which football club is the wealthiest in the world",
             R.drawable.download,
-            "Trump",
-            "Christopher Columbus"
+            "Newcastle",
+            "Manchester United",
+            "Fulham"
         )
 
+        val que3 = Question (
+            2,
+            "Who has the most Champions league titles",
+            R.drawable.download,
+            "Liverpool",
+            "Crystal Palace",
+            "Real Madrid"
+
+        )
+
+//        val que3 = Question (
+//            2,
+//            "Who has the most Champions league titles",
+//            R.drawable.download,
+//            "Liverpool",
+//            "Crystal Palace",
+//            "Real Madrid"
+//
+//        )
+
+//        val que3 = Question (
+//            2,
+//            "Who has the most Champions league titles",
+//            R.drawable.download,
+//            "Liverpool",
+//            "Crystal Palace",
+//            "Real Madrid"
+//
+//        )
 
         // adding questions to array
         allQuestions.add(que1)
         allQuestions.add(que2)
+        allQuestions.add(que3)
 
         // return data
         return allQuestions
