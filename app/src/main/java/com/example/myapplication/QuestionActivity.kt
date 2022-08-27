@@ -37,5 +37,21 @@ class QuestionActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+        binding.materialCardView1.setOnClickListener{
+            val intent = Intent(this, HistoryActivity:: class.java )
+
+
+            startActivity(intent)
+            finish()
+        }
+
+        binding.materialCardView2.setOnClickListener{
+            val intent = Intent(this, TvActivity:: class.java )
+
+
+            startActivity(intent)
+            finish()
+        }
     }
 }

@@ -27,8 +27,6 @@ class SportsActivity : AppCompatActivity() {
 
         val currentQuestion = questions[questionNumber]
 
-        Log.i("currentQuestion", questionNumber.toString());
-
 
         updateUI(currentQuestion)
 

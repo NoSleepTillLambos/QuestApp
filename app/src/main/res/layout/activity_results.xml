@@ -5,11 +5,78 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ResultsActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/background_app">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Results"/>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/image308"
+            android:layout_marginTop="40dp"
+            />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-50dp"
+            android:text="Your Final score is: "
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textColor="@color/teal_200"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="350dp"
+            android:gravity="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:text="5/5"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="40dp"
+                app:cornerRadius="8dp"
+                android:backgroundTint="@color/teal_200"
+                android:text="HOME"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_retry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="480dp"
+                android:layout_marginLeft="180dp"
+                android:backgroundTint="@color/white"
+                android:outlineAmbientShadowColor="@color/black"
+                android:text="RETRY"
+                app:cornerRadius="8dp"
+                android:textColor="@color/teal_200"
+                />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+
+
 
 </LinearLayout>
