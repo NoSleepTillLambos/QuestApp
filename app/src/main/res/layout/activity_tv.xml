@@ -26,6 +26,22 @@
             android:orientation="vertical"
             android:padding="15dp">
 
+            <ProgressBar
+                android:id="@+id/progress_line"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+                android:max="5"
+                android:progress="1"/>
+
+            <TextView
+                android:id="@+id/progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/5"
+                android:gravity="end"
+                android:layout_margin="5dp"/>
+
             <TextView
                 android:id="@+id/tv_question"
                 android:layout_width="match_parent"
@@ -43,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="50dp"
                 android:gravity="center"
-                android:id="@+id/rg_answer">
+                android:id="@+id/rg_tvAnswer">
 
                 <RadioButton
                     android:id="@+id/rb_firstAnswer"

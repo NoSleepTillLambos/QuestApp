@@ -7,6 +7,31 @@
     android:background="#2b2b2b"
     tools:context=".SettingsActivity">
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/materialButton5" />
+
+    <TextView
+        android:id="@+id/btn_goHome"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"/>
+
+
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="0dp"
@@ -35,17 +60,18 @@
 
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/materialButton5"
         android:layout_width="150dp"
         android:layout_height="50dp"
         android:layout_marginTop="40dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:text="Reset all scores"
-        app:layout_constraintStart_toStartOf="parent"
         android:backgroundTint="@color/white"
+        android:text="Reset all scores"
         android:textColor="@color/lightBlack"
         android:textSize="10sp"
         android:textStyle="bold"
         app:cornerRadius="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
 

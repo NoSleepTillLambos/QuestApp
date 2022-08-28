@@ -3,6 +3,7 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.provider.Settings
 import android.util.Log
 import com.example.myapplication.databinding.ActivityQuestionBinding
 import com.example.myapplication.models.Constants.getAllQuestions
@@ -48,6 +49,14 @@ class QuestionActivity : AppCompatActivity() {
 
         binding.materialCardView2.setOnClickListener{
             val intent = Intent(this, TvActivity:: class.java )
+
+
+            startActivity(intent)
+            finish()
+        }
+
+        binding.btnSettings.setOnClickListener{
+            val intent = Intent(this, SettingsActivity:: class.java )
 
 
             startActivity(intent)

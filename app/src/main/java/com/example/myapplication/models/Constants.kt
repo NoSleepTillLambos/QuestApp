@@ -145,9 +145,9 @@ object Constants {
                 1,
                 "What is Jim's surname",
                 R.drawable.ic_help,
-                "1988",
-                "1945",
-                "2021"
+                "Halpert",
+                "Beesly",
+                "Creed"
             )
 
             val tvQue2 = Question(

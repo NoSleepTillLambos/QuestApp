@@ -23,6 +23,13 @@
         android:textSize="20sp"
         android:layout_marginStart="10dp"/>
 
+    <ImageView
+        android:id="@+id/btn_settings"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_settings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
     <com.google.android.material.card.MaterialCardView
@@ -36,6 +43,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:checkedIconTint="@color/lightBlack">
+
+
 
         <LinearLayout
             android:layout_width="match_parent"
