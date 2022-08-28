@@ -3,14 +3,6 @@
 <!-- Repository Information & Links-->
 <br />
 
-![GitHub repo size](https://img.shields.io/github/repo-size/username/projectname?color=%000000)
-![GitHub watchers](https://img.shields.io/github/watchers/username/projectname?color=%000000)
-![GitHub language count](https://img.shields.io/github/languages/count/username/projectname?color=%000000)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/username/projectname?color=%000000)
-[![LinkedIn][linkedin-shield]][linkedin-url]
-[![Instagram][instagram-shield]][instagram-url]
-[![Behance][behance-shield]][behance-url]
-
 <!-- HEADER SECTION -->
 <h5 align="center" style="padding:0;margin:0;">Liam Wedge</h5>
 <h5 align="center" style="padding:0;margin:0;">21100218</h5>
@@ -25,7 +17,7 @@
   <h3 align="center">Quest</h3>
 
   <p align="center">
-    Quest is a  <br>
+    Quest is a Trivia app built in the Android Studio IDE using Kotlin and Java <br>
       <a href="https://github.com/username/projectname"><strong>Explore the docs »</strong></a>
    <br />
    <br />
@@ -40,7 +32,7 @@
 
 * [About the Project](#about-the-project)
   * [Project Description](#project-description)
-  * [Built With](#built-with)
+  * [Built With](Android Studio)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [How to install](#how-to-install)
@@ -61,26 +53,23 @@
     * [Mockups](#mockups)
     * [Video Demonstration](#video-demonstration)
 * [Conclusion](#conclusion)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
 * [License](#license)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
 
-<!--PROJECT DESCRIPTION-->
-## About the Project
+
 <!-- header image of project -->
 ![image1][image1]
 
 ### Project Description
 
-A nice introduction to this amazing project of mine.
+The project features three different categories, History, Sports and Television. The player is able to select any of these three and 
+test themselves against the questions I have designed
 
 ### Built With
 
-* [Technology Name](path/to/technology/website)
-* [Technology Name](path/to/technology/website)
-* [Technology Name](path/to/technology/website)
+* [Kotlin](https://kotlinlang.org/)
+* [Android Studio](https://developer.android.com/studio)
 
 <!-- GETTING STARTED -->
 <!-- Make sure to add appropriate information about what prerequesite technologies the user would need and also the steps to install your project on their own mashines -->
@@ -177,36 +166,14 @@ The `Development Process` is the technical implementations and functionality don
 
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
-* Sunshine.
-* Rainbows.
+Highlights of the project were being able to work with the Kotlin langauge and testing myself to work with new software, 
+I found the syntax and language in general to be a very rewarding one when working out issues and solving bugs
 
 #### Challenges
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
-* Bugs.
-* Bugs.
+The biggest challenge for me was learning a new language, working with conditions and if and else statements also proved to be quite challenging
+as some of the syntax is different to the Javascript i am used to
 
-### Reviews & Testing
-<!-- stipulate how you've conducted testing in the form of peer reviews, feedback and also functionality testing, like unit tests (if applicable) -->
-
-#### Feedback from Reviews
-
-`Peer Reviews` were conducted by my fellow students and lecturer. The following feedback I found useful:
-
-* Feedback one.
-* Feedback two.
-
-#### Unit Tests
-
-`Unit Tests` were conducted to establish working functionality. Here are all the tests that were ran:
-
-* Test 1 of this functionality
-* Test 2 of this functionality
-
-### Future Implementation
-<!-- stipulate functionality and improvements that can be implemented in the future. -->
-
-* Future 1.
-* Future 2.
 
 <!-- MOCKUPS -->
 ## Final Outcome
@@ -243,7 +210,7 @@ Contributions are what makes the open-source community such an amazing place to 
 <!-- AUTHORS -->
 ## Authors
 
-* **Your Name & Surname** - [username](https://github.com/username)
+* **Liam Wedge** - [username](https://github.com/NoSleepTillLambos)
 
 <!-- LICENSE -->
 ## License
@@ -253,18 +220,14 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 <!-- LICENSE -->
 ## Contact
 
-* **Your Name & Surname** - [email@address](mailto:email@address) - [@instagram_handle](https://www.instagram.com/instagram_handle/) 
-* **Project Link** - https://github.com/username/projectname
+* **Liam Wedge** - [LiamWedge00@gmail.com] 
+* **Project Link** - https://github.com/NoSleepTillLambos/QuestApp
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 <!-- all resources that you used and Acknowledgements here -->
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-* [Resource Name](path/to/resource)
-
+* [Android Studio](https://developer.android.com/studio)
+* [Kotlin](https://kotlinlang.org/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 [image1]: /path/to/image.png
@@ -279,10 +242,3 @@ Distributed under the MIT License. See `LICENSE` for more information.\
 [image10]: /path/to/image.png
 
 
-<!-- Refer to https://shields.io/ for more information and options about the shield links at the top of the ReadMe file -->
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/nameonlinkedin/
-[instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?style=flat-square&logo=instagram&colorB=555
-[instagram-url]: https://www.instagram.com/instagram_handle/
-[behance-shield]: https://img.shields.io/badge/-Behance-black.svg?style=flat-square&logo=behance&colorB=555
-[behance-url]: https://www.behance.net/name-on-behance/
