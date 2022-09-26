@@ -120,23 +120,9 @@ Run the following in the command-line to install all the required dependencies:
 Description of Feature
 
 ![image3][image3]
-### Feature 2
-
-Description of Feature
-
-![image4][image4]
-### Feature 3
-
-Description of Feature
-
-![image5][image5]
-
 
 <!-- CONCEPT PROCESS -->
 <!-- Briefly explain your concept ideation process -->
-## Concept Process
-
-The `Conceptual Process` is the set of actions, activities and research that was done when starting this project.
 
 ### Ideation
 
@@ -146,11 +132,11 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Wireframes
 
-![image7][[image7](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/homepagewf.png)]
-![image8][[image7](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/categorieswf.png)]
+![image7](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/homepagewf.png)
+![image8](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/categorieswf.png)
 ### User-flow
 
-![image8][image8]
+![image8](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/group70.png)
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
@@ -158,23 +144,15 @@ The `Conceptual Process` is the set of actions, activities and research that was
 The development process consisted of designing wireframes, structuring the pages and questions. <br/>
 from there I was able to create and setup the various pages with the questions and complete the frontend. 
 
-### Implementation Process
-<!-- stipulate all of the functionality you included in the project -->
-
-* Made use of both `functionality` to implement a specific feature.
-* `MVC/MVVM` design architecture implemented.
-* `Plugin` for this.
-* ETC.
-
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
 Highlights of the project were being able to work with the Kotlin langauge and testing myself to work with new software, 
 I found the syntax and language in general to be a very rewarding one when working out issues and solving bugs
 
 #### Challenges
-<!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
-The biggest challenge for me was learning a new language, working with the 
-
+The biggest challenge for me was learning a new language and working with the new syntax that comes along with it. <br/> 
+Getting the storage and high scores to work also proved to be a bit of a challenge at times, all in all though it was great to be able to experiment <br/> 
+and test the waters. 
 
 <!-- MOCKUPS -->
 ## Final Outcome
@@ -184,6 +162,8 @@ The biggest challenge for me was learning a new language, working with the
 ![image9](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wirefame1.PNG)
 <br>
 ![image10](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wireframe2.png)
+<br/>
+![image10](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wireframe3.png)
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
@@ -191,22 +171,6 @@ The biggest challenge for me was learning a new language, working with the
 To see a run through of the application, click below:
 
 [View Demonstration](path/to/video/demonstration)
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/username/projectname/issues) for a list of proposed features (and known issues).
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <!-- AUTHORS -->
 ## Authors
