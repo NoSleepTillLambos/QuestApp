@@ -146,8 +146,8 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Wireframes
 
-![image7][image7]
-
+![image7][[image7](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/homepagewf.png)]
+![image8][[image7](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/categorieswf.png)]
 ### User-flow
 
 ![image8][image8]
@@ -181,9 +181,9 @@ The biggest challenge for me was learning a new language, working with the
 
 ### Mockups
 
-![image9][image9]
+![image9][[image9](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wirefame1.PNG)]
 <br>
-![image10][image10]
+![image10][[image10](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wireframe2.png)]
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
