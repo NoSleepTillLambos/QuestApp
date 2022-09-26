@@ -11,7 +11,7 @@
 <p align="center">
 
   <a href="https://github.com/username/projectname">
-    <img src="https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable-v24/image308.png" alt="App Logo" width="140" height="140">
+    <img src="https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable-v24/image308.png" alt="App Logo" width="200" height="200">
   </a>
   
   <h3 align="center">Quest</h3>
