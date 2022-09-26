@@ -80,35 +80,7 @@ The following instructions will get you a copy of the project up and running on 
 
 ### Prerequisites
 
-Ensure that you have the latest version of [Android Studio]((https://developer.android.com/studio?gclid=CjwKCAjwm8WZBhBUEiwA178UnDn9nF-CRrhcI0D_6H7EhBtmU8kK2DkGulFY6qTHYwRr2uJtlHJRGBoCqlQQAvD_BwE&gclsrc=aw.ds)) installed on your machine.
-
-### How to install
-
-### Installation
-Here are a couple of ways to clone this repo:
-
-1. Software </br>
-`Android Studio` -> `File` -> `New` -> `From Version Control` -> `Git`</br>
-Enter `https://github.com/username/projectname.git` into the URL field and press the `Clone` button.
-
-2. Clone Repository </br>
-Run the following in the command-line to clone the project:
-   ```sh
-   git clone https://github.com/username/projectname.git
-   ```
-    Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
-
-3. Install Dependencies </br>
-Run the following in the command-line to install all the required dependencies:
-   ```sh
-   npm install
-   ```
-
-4. Get a free API Key at [https://example.com](https://example.com) and enter it in the `config.js` file:
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
+Ensure that you have the latest version of [Android Studio](https://developer.android.com/studio?gclid=CjwKCAjwm8WZBhBUEiwA178UnDn9nF-CRrhcI0D_6H7EhBtmU8kK2DkGulFY6qTHYwRr2uJtlHJRGBoCqlQQAvD_BwE&gclsrc=aw.ds) installed on your machine.
 
 <!-- FEATURES AND FUNCTIONALITY-->
 <!-- You can add the links to all of your imagery at the bottom of the file as references -->
