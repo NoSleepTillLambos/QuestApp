@@ -181,9 +181,9 @@ The biggest challenge for me was learning a new language, working with the
 
 ### Mockups
 
-![image9][[image9](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wirefame1.PNG)]
+![image9][(https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wirefame1.PNG)]
 <br>
-![image10][[image10](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wireframe2.png)]
+![image10][(https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wireframe2.png)]
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
