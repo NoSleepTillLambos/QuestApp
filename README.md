@@ -80,7 +80,7 @@ The following instructions will get you a copy of the project up and running on 
 
 ### Prerequisites
 
-Ensure that you have the latest version of [Software](path/to/where/they/can/download/software) installed on your machine. The [Plugin](path/to/where/they/can/download/plugin) plugin will also be required.
+Ensure that you have the latest version of [Android Studio]((https://developer.android.com/studio?gclid=CjwKCAjwm8WZBhBUEiwA178UnDn9nF-CRrhcI0D_6H7EhBtmU8kK2DkGulFY6qTHYwRr2uJtlHJRGBoCqlQQAvD_BwE&gclsrc=aw.ds)) installed on your machine.
 
 ### How to install
 
@@ -140,14 +140,14 @@ The `Conceptual Process` is the set of actions, activities and research that was
 
 ### Ideation
 
-![image5][image5]
+![image5](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/group71.png)
 <br>
 ![image6][image6]
 
 ### Wireframes
 
-![image7][image7]
-
+![image7][[image7](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/homepagewf.png)]
+![image8][[image7](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/categorieswf.png)]
 ### User-flow
 
 ![image8][image8]
@@ -181,9 +181,9 @@ The biggest challenge for me was learning a new language, working with the
 
 ### Mockups
 
-![image9][image9]
+![image9](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wirefame1.PNG)
 <br>
-![image10][image10]
+![image10](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wireframe2.png)
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
@@ -212,11 +212,6 @@ Contributions are what makes the open-source community such an amazing place to 
 ## Authors
 
 * **Liam Wedge** - [username](https://github.com/NoSleepTillLambos)
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.\
 
 <!-- LICENSE -->
 ## Contact
