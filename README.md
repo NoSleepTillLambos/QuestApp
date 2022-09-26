@@ -11,14 +11,15 @@
 <p align="center">
 
   <a href="https://github.com/username/projectname">
-    <img src="path/to/logo" alt="Logo" width="140" height="140">
+    <img src="https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable-v24/image308.png" alt="App Logo" width="140" height="140">
   </a>
   
   <h3 align="center">Quest</h3>
 
   <p align="center">
-    Quest is a Trivia app built in the Android Studio IDE using Kotlin and Java <br>
-      <a href="https://github.com/username/projectname"><strong>Explore the docs »</strong></a>
+    Quest is a Trivia app I have built using Android studio and Kotlin, the app has three categories including televsion,
+    sports and history. <br>
+      <a href="https://github.com/NoSleepTillLambos/QuestApp"><strong>Explore the docs »</strong></a>
    <br />
    <br />
    <a href="path/to/demonstration/video">View Demo</a>
@@ -154,7 +155,8 @@ The `Conceptual Process` is the set of actions, activities and research that was
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
 
-The `Development Process` is the technical implementations and functionality done in the frontend and backend of the application.
+The development process consisted of designing wireframes, structuring the pages and questions. <br/>
+from there I was able to create and setup the various pages with the questions and complete the frontend. 
 
 ### Implementation Process
 <!-- stipulate all of the functionality you included in the project -->
@@ -171,8 +173,7 @@ I found the syntax and language in general to be a very rewarding one when worki
 
 #### Challenges
 <!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
-The biggest challenge for me was learning a new language, working with conditions and if and else statements also proved to be quite challenging
-as some of the syntax is different to the Javascript i am used to
+The biggest challenge for me was learning a new language, working with the 
 
 
 <!-- MOCKUPS -->
