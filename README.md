@@ -81,26 +81,11 @@ The following instructions will get you a copy of the project up and running on 
 ### Prerequisites
 
 Ensure that you have the latest version of [Android Studio](https://developer.android.com/studio?gclid=CjwKCAjwm8WZBhBUEiwA178UnDn9nF-CRrhcI0D_6H7EhBtmU8kK2DkGulFY6qTHYwRr2uJtlHJRGBoCqlQQAvD_BwE&gclsrc=aw.ds) installed on your machine.
-
-<!-- FEATURES AND FUNCTIONALITY-->
-<!-- You can add the links to all of your imagery at the bottom of the file as references -->
-## Features and Functionality
-
-![image2][image2]
-### Feature 1
-
-Description of Feature
-
-![image3][image3]
-
-<!-- CONCEPT PROCESS -->
 <!-- Briefly explain your concept ideation process -->
 
 ### Ideation
 
 ![image5](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/group71.png)
-<br>
-![image6][image6]
 
 ### Wireframes
 
@@ -136,6 +121,11 @@ and test the waters.
 ![image10](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wireframe2.png)
 <br/>
 ![image10](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wireframe3.png)
+
+#### Future Implementation
+
+In the future i would like to add high scores for every category <br/>
+I would like to add different methods of answering questions such as tapping on and typing in inputs
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
