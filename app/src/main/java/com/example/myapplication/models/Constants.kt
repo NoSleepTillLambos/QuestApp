@@ -38,30 +38,32 @@ object Constants {
 
         )
 
-//        val que4 = Question (
-//            2,
-//            "Which club does Mohammed Salah play for",
-//            R.drawable.download,
-//            "Liverpool",
-//            "Manchester city",
-//            "Sporting Lisbon"
-//
-//        )
+        val que4 = Question (
+            2,
+            "Which club does Mohammed Salah play for",
+            R.drawable.download,
+            "Liverpool",
+            "Manchester city",
+            "Sporting Lisbon"
 
-//        val que5 = Question (
-//            2,
-//            "Who is the manager of Manchester city",
-//            R.drawable.download,
-//            "Sir Alex Ferguson",
-//            "Patrice Evra",
-//            "Pep Guardiola"
-//
-//        )
+        )
+
+        val que5 = Question (
+            2,
+            "Who is the manager of Manchester city",
+            R.drawable.download,
+            "Sir Alex Ferguson",
+            "Patrice Evra",
+            "Pep Guardiola"
+
+        )
 
         // adding questions to array
         allQuestions.add(que1)
         allQuestions.add(que2)
         allQuestions.add(que3)
+        allQuestions.add(que4)
+        allQuestions.add(que5)
 
         // return data
         return allQuestions
@@ -92,44 +94,45 @@ object Constants {
             R.drawable.download,
             "Lee Harvey Oswald",
             "Peter Pan",
-            "Fulham"
+            "John Wilkes Booth"
         )
 
         val historyQue3 = Question(
             2,
             "Who was America's first president",
             R.drawable.download,
-            "Liverpool",
-            "Crystal Palace",
-            "Real Madrid"
+            "Abraham Lincoln",
+            "George Washington",
+            "John F Kennedy"
 
         )
 
-//        val historyQue4 = Question (
-//            2,
-//            "Which club does Mohammed Salah play for",
-//            R.drawable.download,
-//            "Liverpool",
-//            "Manchester city",
-//            "Sporting Lisbon"
-//
-//        )
+        val historyQue4 = Question (
+            2,
+            "When was the first iPhone released",
+            R.drawable.download,
+            "2007",
+            "2022",
+            "1999"
 
-//        val historyQue5 = Question (
-//            2,
-//            "Who is the manager of Manchester city",
-//            R.drawable.download,
-//            "Sir Alex Ferguson",
-//            "Patrice Evra",
-//            "Pep Guardiola"
-//
-//        )
+        )
+
+        val historyQue5 = Question (
+            2,
+            "Which country did America buy Alaska from",
+            R.drawable.download,
+            "Russia",
+            "China",
+            "South Africa"
+
+        )
 
         // adding questions to array
         historyQuestions.add(historyQue1)
         historyQuestions.add(historyQue2)
         historyQuestions.add(historyQue3)
-
+        historyQuestions.add(historyQue4)
+        historyQuestions.add(historyQue5)
         // return data
         return historyQuestions
 
@@ -147,7 +150,7 @@ object Constants {
                 R.drawable.ic_help,
                 "Halpert",
                 "Beesly",
-                "Creed"
+                "Scott"
             )
 
             val tvQue2 = Question(
@@ -169,30 +172,32 @@ object Constants {
 
             )
 
-//        val tvQue4 = Question (
-//            2,
-//            "Which club does Mohammed Salah play for",
-//            R.drawable.download,
-//            "Liverpool",
-//            "Manchester city",
-//            "Sporting Lisbon"
-//
-//        )
+            val tvQue4 = Question (
+            2,
+            "Which state does South Park take place in",
+            R.drawable.download,
+            "Colorado",
+            "California",
+            "Texas"
 
-//        val tvQue5 = Question (
-//            2,
-//            "Who is the manager of Manchester city",
-//            R.drawable.download,
-//            "Sir Alex Ferguson",
-//            "Patrice Evra",
-//            "Pep Guardiola"
-//
-//        )
+        )
+
+            val tvQue5 = Question (
+            2,
+            "Who played Benjamin Gates in the movie National Treasure",
+            R.drawable.download,
+            "Nicholas Cage",
+            "Steve Carell",
+            "Donald Trump"
+
+        )
 
             // adding questions to array
             tvQuestions.add(tvQue1)
             tvQuestions.add(tvQue2)
             tvQuestions.add(tvQue3)
+            tvQuestions.add(tvQue4)
+            tvQuestions.add(tvQue5)
 
             // return data
             return tvQuestions
