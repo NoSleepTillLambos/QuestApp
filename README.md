@@ -80,77 +80,20 @@ The following instructions will get you a copy of the project up and running on 
 
 ### Prerequisites
 
-Ensure that you have the latest version of [Android Studio]((https://developer.android.com/studio?gclid=CjwKCAjwm8WZBhBUEiwA178UnDn9nF-CRrhcI0D_6H7EhBtmU8kK2DkGulFY6qTHYwRr2uJtlHJRGBoCqlQQAvD_BwE&gclsrc=aw.ds)) installed on your machine.
-
-### How to install
-
-### Installation
-Here are a couple of ways to clone this repo:
-
-1. Software </br>
-`Android Studio` -> `File` -> `New` -> `From Version Control` -> `Git`</br>
-Enter `https://github.com/username/projectname.git` into the URL field and press the `Clone` button.
-
-2. Clone Repository </br>
-Run the following in the command-line to clone the project:
-   ```sh
-   git clone https://github.com/username/projectname.git
-   ```
-    Open `Software` and select `File | Open...` from the menu. Select cloned directory and press `Open` button
-
-3. Install Dependencies </br>
-Run the following in the command-line to install all the required dependencies:
-   ```sh
-   npm install
-   ```
-
-4. Get a free API Key at [https://example.com](https://example.com) and enter it in the `config.js` file:
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-
-<!-- FEATURES AND FUNCTIONALITY-->
-<!-- You can add the links to all of your imagery at the bottom of the file as references -->
-## Features and Functionality
-
-![image2][image2]
-### Feature 1
-
-Description of Feature
-
-![image3][image3]
-### Feature 2
-
-Description of Feature
-
-![image4][image4]
-### Feature 3
-
-Description of Feature
-
-![image5][image5]
-
-
-<!-- CONCEPT PROCESS -->
+Ensure that you have the latest version of [Android Studio](https://developer.android.com/studio?gclid=CjwKCAjwm8WZBhBUEiwA178UnDn9nF-CRrhcI0D_6H7EhBtmU8kK2DkGulFY6qTHYwRr2uJtlHJRGBoCqlQQAvD_BwE&gclsrc=aw.ds) installed on your machine.
 <!-- Briefly explain your concept ideation process -->
-## Concept Process
-
-The `Conceptual Process` is the set of actions, activities and research that was done when starting this project.
 
 ### Ideation
 
 ![image5](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/group71.png)
-<br>
-![image6][image6]
 
 ### Wireframes
 
-![image7][[image7](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/homepagewf.png)]
-![image8][[image7](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/categorieswf.png)]
+![image7](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/homepagewf.png)
+![image8](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/categorieswf.png)
 ### User-flow
 
-![image8][image8]
+![image8](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/group70.png)
 
 <!-- DEVELOPMENT PROCESS -->
 ## Development Process
@@ -158,23 +101,15 @@ The `Conceptual Process` is the set of actions, activities and research that was
 The development process consisted of designing wireframes, structuring the pages and questions. <br/>
 from there I was able to create and setup the various pages with the questions and complete the frontend. 
 
-### Implementation Process
-<!-- stipulate all of the functionality you included in the project -->
-
-* Made use of both `functionality` to implement a specific feature.
-* `MVC/MVVM` design architecture implemented.
-* `Plugin` for this.
-* ETC.
-
 #### Highlights
 <!-- stipulated the highlight you experienced with the project -->
 Highlights of the project were being able to work with the Kotlin langauge and testing myself to work with new software, 
 I found the syntax and language in general to be a very rewarding one when working out issues and solving bugs
 
 #### Challenges
-<!-- stipulated the challenges you faced with the project and why you think you faced it or how you think you'll solve it (if not solved) -->
-The biggest challenge for me was learning a new language, working with the 
-
+The biggest challenge for me was learning a new language and working with the new syntax that comes along with it. <br/> 
+Getting the storage and high scores to work also proved to be a bit of a challenge at times, all in all though it was great to be able to experiment <br/> 
+and test the waters. 
 
 <!-- MOCKUPS -->
 ## Final Outcome
@@ -184,6 +119,13 @@ The biggest challenge for me was learning a new language, working with the
 ![image9](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wirefame1.PNG)
 <br>
 ![image10](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wireframe2.png)
+<br/>
+![image10](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wireframe3.png)
+
+#### Future Implementation
+
+In the future i would like to add high scores for every category <br/>
+I would like to add different methods of answering questions such as tapping on and typing in inputs
 
 <!-- VIDEO DEMONSTRATION -->
 ### Video Demonstration
@@ -191,22 +133,6 @@ The biggest challenge for me was learning a new language, working with the
 To see a run through of the application, click below:
 
 [View Demonstration](path/to/video/demonstration)
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/username/projectname/issues) for a list of proposed features (and known issues).
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what makes the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 <!-- AUTHORS -->
 ## Authors
