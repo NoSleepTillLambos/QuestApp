@@ -39,17 +39,17 @@ class MainActivity : AppCompatActivity() {
                 // passing data
                 intent.putExtra("Username", username.toString())
 
-
-
                 startActivity(intent)
                 finish() // stopping us from going back to the home screen: user should not be
                 // able to go back after entering their name
-
-
-
             }
 
         }
+        binding.fabInfo.setOnClickListener {
+            val toast = Toast.makeText(this,"", Toast.LENGTH_LONG)
+            toast.show()
+        }
+
     }
 
 

@@ -31,10 +31,19 @@ class QuestionActivity : AppCompatActivity() {
         // updating view values
         binding.tvGreeting.text = "Welcome $username!, Choose a category"
 
+        binding.btnSettings.setOnClickListener{
+            val intent = Intent(this, SettingsActivity:: class.java )
+
+            intent.putExtra("username", username)
+
+            startActivity(intent)
+
+        }
+
         binding.materialCardView.setOnClickListener{
             val intent = Intent(this, SportsActivity:: class.java )
 
-
+            intent.putExtra("username", username)
             startActivity(intent)
             finish()
         }
@@ -42,6 +51,7 @@ class QuestionActivity : AppCompatActivity() {
         binding.materialCardView1.setOnClickListener{
             val intent = Intent(this, HistoryActivity:: class.java )
 
+            intent.putExtra("username", username)
 
             startActivity(intent)
             finish()
@@ -50,14 +60,7 @@ class QuestionActivity : AppCompatActivity() {
         binding.materialCardView2.setOnClickListener{
             val intent = Intent(this, TvActivity:: class.java )
 
-
-            startActivity(intent)
-            finish()
-        }
-
-        binding.btnSettings.setOnClickListener{
-            val intent = Intent(this, SettingsActivity:: class.java )
-
+            intent.putExtra("username", username)
 
             startActivity(intent)
             finish()

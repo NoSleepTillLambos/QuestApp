@@ -13,6 +13,7 @@
         android:id="@+id/tv_greeting"
         android:layout_width="match_parent"
         android:layout_height="50dp"
+        android:layout_marginTop="30dp"
         android:text="hello,"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/materialCardView"
@@ -24,7 +25,7 @@
         android:layout_marginStart="10dp"/>
 
     <ImageView
-        android:id="@+id/btn_settings"
+        android:id="@+id/btnSettings"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:src="@drawable/ic_settings"
@@ -37,7 +38,7 @@
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginStart="14dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="150dp"
         android:layout_marginEnd="14dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,7 +77,7 @@
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginStart="14dp"
-        android:layout_marginTop="230dp"
+        android:layout_marginTop="270dp"
         android:layout_marginEnd="14dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -109,7 +110,7 @@
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:layout_marginStart="14dp"
-        android:layout_marginTop="360dp"
+        android:layout_marginTop="390dp"
         android:layout_marginEnd="14dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

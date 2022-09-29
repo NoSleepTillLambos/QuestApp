@@ -27,7 +27,7 @@
             android:padding="15dp">
 
             <ProgressBar
-                android:id="@+id/progress_line"
+                android:id="@+id/progressLine"
                 android:layout_width="match_parent"
                 android:layout_height="15dp"
                 style="@style/Widget.AppCompat.ProgressBar.Horizontal"

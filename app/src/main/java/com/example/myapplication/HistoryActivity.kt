@@ -23,8 +23,8 @@ class HistoryActivity : AppCompatActivity() {
         val questions = getHistoryQuestions()
 
         var questionNumber = intent.getIntExtra("questionNumber", 0)
-
-
+        val username = intent.getStringExtra("username").toString()
+        var currentScore = intent.getIntExtra("currentScore", 0)
         val currentQuestion = questions[questionNumber]
 
 
@@ -43,10 +43,15 @@ class HistoryActivity : AppCompatActivity() {
             } else { // user has selected the answer
                 var userAnswer = findViewById<RadioButton>(selectedAnswer)
 
+                if(userAnswer.text.toString() == currentQuestion.optionOne) {
+                    currentScore += 1
+                }
                 if (questionNumber + 1 == questions.count() ) {
-                    // todo navigate to results
+
                     val intent = Intent(this, ResultsActivity::class.java)
-                    Log.i("Add last question", "Yes!");
+
+                    intent.putExtra("currentScore", currentScore)
+
                     startActivity(intent)
                     finish()
 
@@ -56,9 +61,10 @@ class HistoryActivity : AppCompatActivity() {
 
                     // pass username and next question
                     intent.putExtra("questionNumber", questionNumber + 1)
+                    intent.putExtra("username", username)
+                    // passing score to next question
+                    intent.putExtra("currentScore", currentScore)
 
-
-                    Log.i("next question", "Yes!");
                     startActivity(intent)
                     finish()
                 }
@@ -71,7 +77,7 @@ class HistoryActivity : AppCompatActivity() {
 
 
     }
-    fun updateUI(currentQuestion: Question) {
+    private fun updateUI(currentQuestion: Question) {
         if (currentQuestion.id === 1) {
             binding.tvQuestion.text = "Question 1: ${currentQuestion.questionText}"
         } else {
@@ -83,9 +89,7 @@ class HistoryActivity : AppCompatActivity() {
         binding.rbAnswerThree.text = currentQuestion.optionThree
 
         // updating the progress bar
-
         binding.progressLine.progress = currentQuestion.id
-
         binding.progressText.text = currentQuestion.id.toString() + "/5"
     }
 }

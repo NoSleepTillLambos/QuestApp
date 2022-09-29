@@ -4,6 +4,11 @@ import com.example.myapplication.R
 
 object Constants {
 
+    val USER_NAME: String = "username"
+    val LAST_USER: String = "lastUser"
+    val LAST_RESULT: String = "lastResult"
+
+
     // function returns all required questions
     fun getAllQuestions(): ArrayList<Question> {
         // create empty array list

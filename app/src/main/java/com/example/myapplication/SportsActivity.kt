@@ -54,9 +54,10 @@ class SportsActivity : AppCompatActivity() {
                 }
                 // check
                 if (questionNumber + 1 == questions.count() ) {
-                    // todo navigate to results
                     val intent = Intent(this, ResultsActivity::class.java)
+
                     intent.putExtra("currentScore", currentScore)
+
                     startActivity(intent)
                     finish()
 
@@ -66,9 +67,10 @@ class SportsActivity : AppCompatActivity() {
 
                     // pass username and next question
                     intent.putExtra("questionNumber", questionNumber + 1)
+
+                    // pass score to next Q
                     intent.putExtra("currentScore", currentScore)
 
-                    Log.i("next question", "Yes!")
                     startActivity(intent)
                     finish()
                 }
@@ -95,9 +97,7 @@ class SportsActivity : AppCompatActivity() {
 
 
         // updating the progress bar
-
         binding.progressLine.progress = currentQuestion.id
-
         binding.progressText.text = currentQuestion.id.toString() + "/5"
 
     }

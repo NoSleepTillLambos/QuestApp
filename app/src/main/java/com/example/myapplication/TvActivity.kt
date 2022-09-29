@@ -27,7 +27,7 @@ class TvActivity : AppCompatActivity() {
 
         var questionNumber = intent.getIntExtra("questionNumber", 0)
 
-
+        var currentScore = intent.getIntExtra("currentScore", 0)
         val currentQuestion = questions[questionNumber]
 
 
@@ -47,11 +47,14 @@ class TvActivity : AppCompatActivity() {
             } else { // user has selected the answer
                 var userAnswer = findViewById<RadioButton>(selectedAnswer)
 
+                if(userAnswer.text.toString() == currentQuestion.optionOne) {
+                    currentScore += 1
+                }
                 // check
                 if (questionNumber + 1 == questions.count()) {
-                    // todo navigate to results
+                    
                     val intent = Intent(this, ResultsActivity::class.java)
-                    Log.i("Add last question", "Yes!");
+                    intent.putExtra("currentScore", currentScore)
                     startActivity(intent)
                     finish()
 
@@ -62,20 +65,17 @@ class TvActivity : AppCompatActivity() {
                     // pass username and next question
                     intent.putExtra("questionNumber", questionNumber + 1)
 
+                    // passing the score to next question
+                    intent.putExtra("currentScore", currentScore)
 
-                    Log.i("next question", "Yes!");
                     startActivity(intent)
                     finish()
                 }
-
-                Log.i("on click completed", "Yes!");
-
             }
-
         }
 
     }
-    fun updateUI(currentQuestion: Question) {
+    private fun updateUI(currentQuestion: Question) {
         if (currentQuestion.id === 1) {
             binding.tvQuestion.text = "Question 1: ${currentQuestion.questionText}"
         } else {
@@ -86,9 +86,7 @@ class TvActivity : AppCompatActivity() {
         binding.rbSecondAnswer.text = currentQuestion.optionTwo
         binding.rbThirdAnswer.text = currentQuestion.optionThree
 
-
         // updating the progress bar
-
         binding.progressLine.progress = currentQuestion.id
 
         binding.progressText.text = currentQuestion.id.toString() + "/5"
