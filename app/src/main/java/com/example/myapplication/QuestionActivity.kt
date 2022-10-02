@@ -39,6 +39,14 @@ class QuestionActivity : AppCompatActivity() {
             finish()
         }
 
+        binding.goSettings.setOnClickListener{
+            val intent = Intent(this, SettingsActivity:: class.java )
+
+            intent.putExtra("username", username)
+            startActivity(intent)
+
+        }
+
         binding.materialCardView1.setOnClickListener{
             val intent = Intent(this, HistoryActivity:: class.java )
 
