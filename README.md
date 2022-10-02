@@ -60,7 +60,7 @@
 
 
 <!-- header image of project -->
-![image1][image1]
+![image1](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/androidstudio.png)
 
 ### Project Description
 
