@@ -56,11 +56,7 @@
 * [Conclusion](#conclusion)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
-
-<!-- header image of project -->
-<img align="center" height="100px" width="100px">![image1](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/androidstudio.png)</img>
+* [Acknowledgements](#acknowledgements
 
 ### Project Description
 
