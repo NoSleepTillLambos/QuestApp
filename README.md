@@ -122,6 +122,10 @@ and test the waters.
 <br/>
 ![image10](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/wireframe3.png)
 
+<h3>Setings Page</h3>
+
+![image11](https://github.com/NoSleepTillLambos/QuestApp/blob/master/app/src/main/res/drawable/settingsmockup.png)
+
 #### Future Implementation
 
 In the future i would like to add high scores for every category <br/>
