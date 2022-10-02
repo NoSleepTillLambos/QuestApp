@@ -85,7 +85,7 @@ class SportsActivity : AppCompatActivity() {
     }
 
     private fun updateUI(currentQuestion: Question) {
-        if (currentQuestion.id === 1) {
+        if (currentQuestion.id == 1) {
             binding.tvQuestion.text = "Question 1: ${currentQuestion.questionText}"
         } else {
             binding.tvQuestion.text = "Your next question is: ${currentQuestion.questionText}"

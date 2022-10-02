@@ -14,7 +14,6 @@ object Constants {
         // create empty array list
         val allQuestions = ArrayList<Question>()
 
-        // todo: Create data
         val que1 = Question(
             1,
             "Who won the 1968 soccer world cup",

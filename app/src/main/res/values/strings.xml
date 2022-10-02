@@ -7,4 +7,6 @@
     <string name="sports">Sports</string>
     <string name="history">History</string>
     <string name="tv">Television</string>
+    <string name="description">This app was created and developed using the kotlin language by Liam Wedge,
+    the link to my repo is below. Feel free to send me a message about any changes or issues with the code!</string>
 </resources>

@@ -20,6 +20,7 @@
         android:layout_gravity="start"
         android:backgroundTint="@color/white"
         android:foregroundGravity="right"
+        android:src="@drawable/ic_baseline_star_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

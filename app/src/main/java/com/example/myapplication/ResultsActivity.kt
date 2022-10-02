@@ -6,7 +6,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.myapplication.databinding.ActivityResultsBinding
 import com.example.myapplication.models.Constants
-import kotlinx.android.synthetic.main.activity_main.*
 
 
 class ResultsActivity : AppCompatActivity() {
@@ -37,7 +36,11 @@ class ResultsActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
-
+        binding.goSettings.setOnClickListener {
+            val intent = Intent(this, SettingsActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
     }
     fun saveLastRes (username: String, result: Int) {

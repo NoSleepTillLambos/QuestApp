@@ -10,7 +10,7 @@
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="300dp"
-        android:layout_height="match_parent"
+        android:layout_height="500dp"
         android:layout_gravity="center"
         app:cardCornerRadius="10dp"
         android:layout_margin="20dp">
@@ -39,7 +39,7 @@
             android:id="@+id/tv_result"
             android:layout_width="300dp"
             android:layout_height="100dp"
-            android:layout_marginTop="350dp"
+            android:layout_marginTop="300dp"
             android:gravity="center"
             android:textSize="40sp"
             android:textStyle="bold"
@@ -47,7 +47,7 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="horizontal">
 
 
@@ -55,8 +55,8 @@
                 android:id="@+id/btn_home"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="480dp"
-                android:layout_marginLeft="40dp"
+                android:layout_marginTop="440dp"
+                android:layout_marginStart="40dp"
                 app:cornerRadius="8dp"
                 android:backgroundTint="@color/teal_200"
                 android:text="HOME"/>
@@ -65,18 +65,24 @@
                 android:id="@+id/btn_retry"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="480dp"
-                android:layout_marginLeft="180dp"
+                android:layout_marginTop="440dp"
+                android:layout_marginStart="180dp"
                 android:backgroundTint="@color/white"
                 android:outlineAmbientShadowColor="@color/black"
                 android:text="RETRY"
                 app:cornerRadius="8dp"
                 android:textColor="@color/teal_200"
                 />
+
+
         </RelativeLayout>
     </com.google.android.material.card.MaterialCardView>
 
-
-
+    <ImageView
+        android:id="@+id/goSettings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_settings_24"
+        />
 
 </LinearLayout>

@@ -1,11 +1,16 @@
 package com.example.myapplication
 
+import android.content.DialogInterface
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+
 import android.util.Log
 import android.widget.Toast
+import androidx.appcompat.app.AlertDialog
+import com.example.myapplication.models.Constants
 import com.example.myapplication.databinding.ActivityMainBinding
+import com.example.myapplication.models.Constants.LAST_USER
 
 
 class MainActivity : AppCompatActivity() {
@@ -19,8 +24,6 @@ class MainActivity : AppCompatActivity() {
 
         // getting access to the button in XML
         binding.btnStart.setOnClickListener {
-            Log.i("CLICKED", "yes")
-
 
             // get access to the input value
             val username = binding.etUsername.text
@@ -46,8 +49,16 @@ class MainActivity : AppCompatActivity() {
 
         }
         binding.fabInfo.setOnClickListener {
-            val toast = Toast.makeText(this,"", Toast.LENGTH_LONG)
-            toast.show()
+            val sharedPref = getSharedPreferences("myPref", MODE_PRIVATE)
+            val lastUser = sharedPref.getString(Constants.LAST_USER, "No one")
+            val lastResult = sharedPref.getInt(Constants.LAST_RESULT, 0)
+
+            val builder = AlertDialog.Builder(this)
+            builder.setTitle("Last Player:")
+            builder.setMessage("$lastUser had a score of $lastResult")
+//            builder.setPostiveButton("Close", dismiss())
+            builder.show()
+
         }
 
     }

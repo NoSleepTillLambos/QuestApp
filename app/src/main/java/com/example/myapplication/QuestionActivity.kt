@@ -31,15 +31,6 @@ class QuestionActivity : AppCompatActivity() {
         // updating view values
         binding.tvGreeting.text = "Welcome $username!, Choose a category"
 
-        binding.btnSettings.setOnClickListener{
-            val intent = Intent(this, SettingsActivity:: class.java )
-
-            intent.putExtra("username", username)
-
-            startActivity(intent)
-
-        }
-
         binding.materialCardView.setOnClickListener{
             val intent = Intent(this, SportsActivity:: class.java )
 
