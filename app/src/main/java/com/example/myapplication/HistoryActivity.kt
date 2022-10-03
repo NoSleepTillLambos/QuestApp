@@ -3,7 +3,6 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.RadioButton
 import android.widget.Toast
 import com.example.myapplication.databinding.ActivityHistoryBinding
@@ -79,14 +78,14 @@ class HistoryActivity : AppCompatActivity() {
     }
     private fun updateUI(currentQuestion: Question) {
         if (currentQuestion.id === 1) {
-            binding.tvQuestion.text = "Question 1: ${currentQuestion.questionText}"
+            binding.historyQuestion.text = "Question 1: ${currentQuestion.questionText}"
         } else {
-            binding.tvQuestion.text = "Your next question is: ${currentQuestion.questionText}"
+            binding.historyQuestion.text = "Your next question is: ${currentQuestion.questionText}"
         }
 
-        binding.rbAnswerOne.text = currentQuestion.optionOne
-        binding.rbAnswerTwo.text = currentQuestion.optionTwo
-        binding.rbAnswerThree.text = currentQuestion.optionThree
+        binding.rbHistoryOne.text = currentQuestion.optionOne
+        binding.rbHistoryTwo.text = currentQuestion.optionTwo
+        binding.rbHistoryThree.text = currentQuestion.optionThree
 
         // updating the progress bar
         binding.progressLine.progress = currentQuestion.id

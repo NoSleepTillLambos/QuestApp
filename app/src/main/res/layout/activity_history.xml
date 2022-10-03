@@ -43,7 +43,7 @@
                 android:layout_margin="5dp"/>
 
             <TextView
-                android:id="@+id/tv_question"
+                android:id="@+id/history_question"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_marginTop="22dp"
@@ -62,7 +62,7 @@
                 android:id="@+id/rg_answer">
 
                 <RadioButton
-                    android:id="@+id/rb_answerOne"
+                    android:id="@+id/rb_historyOne"
                     android:layout_width="200dp"
                     android:layout_gravity="center"
                     android:layout_height="50dp"
@@ -70,7 +70,7 @@
                     android:text="Answer One"/>
 
                 <RadioButton
-                    android:id="@+id/rb_answerTwo"
+                    android:id="@+id/rb_historyTwo"
                     android:layout_width="200dp"
                     android:layout_gravity="center"
                     android:layout_height="50dp"
@@ -79,7 +79,7 @@
                     />
 
                 <RadioButton
-                    android:id="@+id/rb_answerThree"
+                    android:id="@+id/rb_historyThree"
                     android:layout_width="200dp"
                     android:layout_gravity="center"
                     android:layout_height="50dp"

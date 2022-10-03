@@ -81,7 +81,7 @@
     <ImageView
         android:id="@+id/goSettings"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="50dp"
         android:src="@drawable/ic_baseline_settings_24"
         />
 
