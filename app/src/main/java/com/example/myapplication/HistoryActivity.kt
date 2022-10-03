@@ -5,8 +5,8 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.RadioButton
 import android.widget.Toast
+import com.example.myapplication.models.Constants
 import com.example.myapplication.databinding.ActivityHistoryBinding
-import com.example.myapplication.models.Constants.getHistoryQuestions
 import com.example.myapplication.models.Question
 
 
@@ -14,13 +14,10 @@ class HistoryActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHistoryBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_history)
-
         binding = ActivityHistoryBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val questions = getHistoryQuestions()
-
+        val questions = Constants.getHistoryQuestions()
         var questionNumber = intent.getIntExtra("questionNumber", 0)
         val username = intent.getStringExtra("username").toString()
         var currentScore = intent.getIntExtra("currentScore", 0)

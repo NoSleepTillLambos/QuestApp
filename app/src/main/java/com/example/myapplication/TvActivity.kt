@@ -3,10 +3,8 @@ package com.example.myapplication
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.RadioButton
 import android.widget.Toast
-import com.example.myapplication.databinding.ActivitySportsBinding
 import com.example.myapplication.databinding.ActivityTvBinding
 import com.example.myapplication.models.Constants
 import com.example.myapplication.models.Question
@@ -16,7 +14,6 @@ class TvActivity : AppCompatActivity() {
     private lateinit var binding:ActivityTvBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tv)
 
         binding = ActivityTvBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -24,9 +21,7 @@ class TvActivity : AppCompatActivity() {
         val questions = Constants.getTvQuestions()
 
         // getting the current question
-
         var questionNumber = intent.getIntExtra("questionNumber", 0)
-
         var currentScore = intent.getIntExtra("currentScore", 0)
         val currentQuestion = questions[questionNumber]
 

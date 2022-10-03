@@ -8,6 +8,7 @@ import android.widget.RadioButton
 import android.widget.Toast
 import android.widget.Toast.LENGTH_SHORT
 import com.example.myapplication.databinding.ActivitySportsBinding
+import com.example.myapplication.models.Constants
 import com.example.myapplication.models.Constants.getAllQuestions
 import com.example.myapplication.models.Question
 
@@ -16,12 +17,11 @@ class SportsActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySportsBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_sports)
 
         binding = ActivitySportsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val questions = getAllQuestions()
+        val questions = Constants.getAllQuestions()
 
         // getting the current question
 

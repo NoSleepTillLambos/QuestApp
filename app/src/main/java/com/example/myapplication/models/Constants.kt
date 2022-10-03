@@ -141,12 +141,10 @@ object Constants {
 
     }
         fun getTvQuestions(): ArrayList<Question> {
-            // function returns all required questions
 
             // create empty array list
             var tvQuestions = ArrayList<Question>()
 
-            // todo: Create data
             val tvQue1 = Question(
                 1,
                 "What is Jim's surname",
