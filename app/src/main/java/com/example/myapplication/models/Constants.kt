@@ -33,7 +33,7 @@ object Constants {
         )
 
         val que3 = Question(
-            2,
+            3,
             "Who has the most Champions league titles",
             R.drawable.download,
             "Liverpool",
@@ -43,7 +43,7 @@ object Constants {
         )
 
         val que4 = Question (
-            2,
+            4,
             "Which club does Mohammed Salah play for",
             R.drawable.download,
             "Liverpool",
@@ -53,7 +53,7 @@ object Constants {
         )
 
         val que5 = Question (
-            2,
+            5,
             "Who is the manager of Manchester city",
             R.drawable.download,
             "Sir Alex Ferguson",
@@ -82,7 +82,6 @@ object Constants {
         // create empty array list
         var historyQuestions = ArrayList<Question>()
 
-        // todo: Create data
         val historyQue1 = Question(
             1,
             "What year did the second world war end",
@@ -102,7 +101,7 @@ object Constants {
         )
 
         val historyQue3 = Question(
-            2,
+            3,
             "Who was America's first president",
             R.drawable.download,
             "Abraham Lincoln",
@@ -112,7 +111,7 @@ object Constants {
         )
 
         val historyQue4 = Question (
-            2,
+            4,
             "When was the first iPhone released",
             R.drawable.download,
             "2007",
@@ -122,7 +121,7 @@ object Constants {
         )
 
         val historyQue5 = Question (
-            2,
+            5,
             "Which country did America buy Alaska from",
             R.drawable.download,
             "Russia",
@@ -167,7 +166,7 @@ object Constants {
             )
 
             val tvQue3 = Question(
-                2,
+                3,
                 "What is Homer Simpsons sons name",
                 R.drawable.download,
                 "Bart",
@@ -177,7 +176,7 @@ object Constants {
             )
 
             val tvQue4 = Question (
-            2,
+            4,
             "Which state does South Park take place in",
             R.drawable.download,
             "Colorado",
@@ -187,7 +186,7 @@ object Constants {
         )
 
             val tvQue5 = Question (
-            2,
+            5,
             "Who played Benjamin Gates in the movie National Treasure",
             R.drawable.download,
             "Nicholas Cage",
