@@ -56,11 +56,7 @@
 * [Conclusion](#conclusion)
 * [License](#license)
 * [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
-
-
-<!-- header image of project -->
-![image1][image1]
+* [Acknowledgements](#acknowledgements
 
 ### Project Description
 
